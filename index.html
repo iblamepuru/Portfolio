@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Purushothaman.B</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="Icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Icon/favicon-16x16.png">
+    <link rel="manifest" href="Icon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+    <div id="scroll-progress-bar"></div>
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo">Purush :)</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero-content"> 
+                <img src="./pic/me2.jpg" alt="Your Photo" class="hero-photo animate-on-scroll animate-drop-in delay-1">
+                <h1 class="animate-on-scroll animate-fade-in delay-2">Hi, I’m Purushothaman.B </h1>
+                <p class="hero-subtitle animate-on-scroll animate-fade-in delay-3">
+                    <span id="typing-effect"></span>
+                </p>
+                <p class="hero-description animate-on-scroll animate-fade-in delay-4">
+                    I design modern, responsive websites and build innovative embedded solutions using sensors, microcontrollers, and real-time systems.
+                </p>
+                <div class="hero-buttons animate-on-scroll animate-fade-in delay-4">
+                    <a href="#about" class="btn btn-secondary">About Me</a>
+                    <a href="https://wa.me/7502844887?text=Hello!" target="_blank" class="btn btn-primary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="section-title animate-on-scroll animate-fade-in">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image animate-on-scroll animate-slide-in-left">
+                        <img src="./pic/me.jpg" alt="About Me Photo">
+                    </div>
+                    <div class="about-content animate-on-scroll animate-slide-in-right">
+                        <h3>I’m a multidisciplinary engineer skilled in Web Development, Embedded Systems, and UI/UX Design.</h3>
+                        <p>
+                            I enjoy creating digital and hardware solutions that are clean, efficient, and user-focused.
+                        </p>
+                        <p>
+                            From designing websites to developing smart IoT devices, I love solving real-world problems through technology.
+                        </p>
+                        <div class="about-domains">
+                            <h4>Domains I Work In:</h4>
+                            <ul class="domains-list">
+                                <li class="animate-on-scroll animate-fade-in">Web Design & Development</li>
+                                <li class="animate-on-scroll animate-fade-in">Embedded Systems (IoT, Sensors)</li>
+                                <li class="animate-on-scroll animate-fade-in">Human-Machine Interface (HMI)</li>
+                                <li class="animate-on-scroll animate-fade-in">Wireless Communication</li>
+                                <li class="animate-on-scroll animate-fade-in">UI/UX Design</li>
+                            </ul>
+                        </div>
+                        <div class="about-buttons">
+                            <a href="./Resume Purush.pdf" download class="btn btn-primary btn-bounce">Download CV</a>
+                            <a href="mailto:purushothamanbalakrishnan1@gmail.com?subject=Hiring Inquiry from your Portfolio" class="btn btn-secondary">Hire Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <div class="section-title animate-on-scroll animate-fade-in">
+                    <h2>My Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skills-category animate-on-scroll animate-slide-in-left">
+                        <h3>Web Development</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Front-End Programming(HTML, CSS, JavaScript)</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Back-End Programming(C,C++,Python,Java etc)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Figma & UI/UX Design</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git & GitHub</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-category animate-on-scroll animate-slide-in-right">
+                        <h3>Embedded Engineering</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Embedded C / C++</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Arduino, ESP32, Raspberry Pi</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Sensors & IoT Protocols (Wi-Fi, Bluetooth etc)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Serial Communication (I2C, SPI,CAN)</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="container">
+                <div class="section-title animate-on-scroll animate-fade-in">
+                    <h2>Experience & Education</h2>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item animate-on-scroll animate-slide-in-right">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 May- 2025 July</span>
+                            <h3>Embedded Engineering Intern – HMI Project</h3>
+                            <p>
+                                Developed a Human-Machine Interface system that provided real-time monitoring and control for industrial machinery. Integrated sensors & actuators with PLC and built dashboards for data visualization.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animate-on-scroll animate-slide-in-left">
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024- 2028</span>
+                            <h3>B.E in Electronics & Communication Engineering</h3>
+                            <p>Chennai Institute of Technology, Chennai</p>
+                            <p>Relevant Coursework: VLSI Design, Embedded Systems, IoT, Data Structures.</p>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </section>
+        <section id="achievements">
+             <div class="container">
+                <div class="section-title animate-on-scroll animate-fade-in">
+                    <h2>Achievements</h2>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card animate-on-scroll animate-fade-in">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Runner-up – PRAEST Hackathon</h4>
+                        <p>(VLSI/Embedded Domain)</p>
+                    </div>
+                    <div class="achievement-card animate-on-scroll animate-fade-in">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Electrothon Finalist</h4>
+                        <p>(IoT/Innovation)</p>
+                    </div>
+                    <div class="achievement-card animate-on-scroll animate-fade-in">
+                        <i class="fas fa-code"></i>
+                        <h4>100+ LeetCode Problems</h4>
+                        <p>Completed</p>
+                    </div>
+                    <div class="achievement-card animate-on-scroll animate-fade-in">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Full Stack Development Course</h4>
+                        <p>Status:Completed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="section-title animate-on-scroll animate-fade-in">
+                    <h2>My Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card animate-on-scroll animate-fade-in">
+                        <div class="project-image">
+                            <img src="./pic/OIP.jpg" alt="Smart Glass Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Glass for Blind People</h3>
+                            <p>Assistive navigation system using sensors to guide visually impaired users. Features object detection and real-time alerts.</p>
+                            <div class="project-tech">
+                                <span>ESP32</span>
+                                <span>Ultrasonic</span>
+                                <span>IoT</span>
+                                <span>Dashboard</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-on-scroll animate-fade-in">
+                        <div class="project-image">
+                            <img src="./pic/rfid.jpg" alt="Smart Class Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Class using RFID + OpenCV</h3>
+                            <p>A classroom automation system for attendance and monitoring, featuring an admin control panel and face monitoring.</p>
+                            <div class="project-tech">
+                                <span>RFID Tech</span>
+                                <span>OpenCV</span>
+                                <span>HTML/CSS/JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-on-scroll animate-fade-in">
+                        <div class="project-image">
+                            <img src="./pic/HMI.png" alt="HMI Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>HMI (Human–Machine Interface) System</h3>
+                            <p>Built an intuitive HMI interface with real-time industrial process monitoring, graph updates, and control systems.</p>
+                            <div class="project-tech">
+                                <span>PLC</span>
+                                <span>Sensors</span>
+                                <span>Web Dashboard</span>
+                                <span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-on-scroll animate-fade-in">
+                        <div class="project-image">
+                            <img src="./pic/foot.png" alt="Piezo Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>Energy Generation using Piezo Sensors</h3>
+                            <p>Designed a system to generate and store power from footsteps using piezo sensors, with a real-time voltage display.</p>
+                            <div class="project-tech">
+                                <span>Piezo Sensors</span>
+                                <span>Microcontroller</span>
+                                <span>Energy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-on-scroll animate-fade-in">
+                        <div class="project-image">
+                            <img src="./pic/Clone.png" alt="Netflix Clone Project">
+                        </div>
+                        <div class="project-info">
+                            <h3>Netflix Clone Website</h3>
+                            <p>A responsive UI clone of the Netflix homepage, focusing on modern responsive design and smooth animations.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="section-title animate-on-scroll animate-fade-in">
+                    <h2>Contact Me</h2>
+                    <p>Interested in collaborating? Let’s build something amazing.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-form animate-on-scroll animate-slide-in-left">
+                        <h3>Send me a message</h3>
+                        <form id="contact-form" action="https://formspree.io/f/mpwkregj" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Type your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info animate-on-scroll animate-slide-in-right">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>purushothamanbalakrishnan1@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+91 75028 44887</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Chennai, India</p>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/iblamepuru" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/purushothaman-b-733066340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div class="gmap">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.1264886481!2d80.0689248988981!3d13.047560370490715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1731682785536!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="250" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>©Copyrights 2025 Purushothaman.B. <br> All rights reserved</p>
+        </div>
+    </footer>
+
+    <button class="floating-theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+        <i class="fas fa-sun"></i>
+    </button>
+    <script src="script.js"></script>
+
+</body>
+</html>
